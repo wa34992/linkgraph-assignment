@@ -1,0 +1,15 @@
+.bodycontent {
+    max-height: calc(100vh - 80px);
+    overflow: auto;
+    padding: 50px 0px 20px 0px;
+    background-color: #F1F5F8;
+    height: calc(100vh - 80px);
+    
+    @media (max-width: 623px) {
+        max-height: calc(100vh - 115px);
+    }
+    :global(.Card_card__p0ho7) {
+        // width: auto !important;
+        // height: auto !important;
+    }
+}

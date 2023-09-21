@@ -1,0 +1,194 @@
+.cardStyle {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  // border-radius: 5px;
+  box-shadow:
+    rgba(17, 17, 26, 0.47) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -ms-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
+    transition: height 0.5s;
+    // height: auto;
+    // transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+  }
+  .link {
+    display: block;
+    width: 100%;
+    height: 60%;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .topright {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+    .addbutton {
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      padding: 5px 10px;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+    
+    .deletebutton{
+      background-color: brown;
+      color: #fff;
+      border: none;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      padding: 5px 10px;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+
+    .favoritebutton {
+      background-color: #f39c12;
+      color: #fff;
+      border: none;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .greenBg{
+      background-color: green;
+    }
+    .purpleBg{
+      background-color:  #f39c12;
+    }
+    .addbuttonMargin{
+      margin-left: 5px;
+    }
+  }
+
+  .bottomright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+
+    .unlockbutton {
+      background-color: #27ae60;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  }
+
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    .profileimage {
+      width: 40px;
+      height: 40px;
+      background-color: #3498db;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .text {
+      h3.title {
+        margin: 0;
+        font-size: 16px;
+        color: #fff;
+      }
+
+      p.description {
+        margin: 0;
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+  
+  .cardoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    .addbutton,
+    .favoritebutton {
+      display: flex;
+    }
+    .showbuttons {
+      display: flex;
+      gap: 10px;
+    }
+    .cardtitle {
+      color: #fff; /* Adjust the text color as needed */
+    }
+    .selectStyle {
+      margin-right: 5px;
+      height: 30px;
+    }
+  }
+  &:hover {
+    .cardoverlay {
+      opacity: 1;
+      .add-button,
+      .favorite-button {
+        display: block;
+        background-color: transparent;
+        border: none;
+        color: #fff; /* Adjust button text color */
+        cursor: pointer;
+        &:hover {
+          background-color: #fff; /* Adjust button background color on hover */
+          color: #000; /* Adjust button text color on hover */
+        }
+      }
+    }
+  }
+}
+.backgroundColor{
+  background-color: white;
+}
+
+.smallSize { height: 200px }
+.mediumSize { height: 400px }
+.largeSize { height: 600px }
