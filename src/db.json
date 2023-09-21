@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "url": "https://images.unsplash.com/photo-1695131402412-e342cbccae53?ixid=M3w1MDQ3NDJ8MHwxfGFsbHwyfHx8fHx8Mnx8MTY5NTIxMTY4MHw&ixlib=rb-4.0.3",
+      "size": "small",
+      "tags": [
+        "New"
+      ],
+      "collection": true
+    }
+  ]
+}
