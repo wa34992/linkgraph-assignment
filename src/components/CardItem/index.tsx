@@ -7,7 +7,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import AddIcon from '@mui/icons-material/Add';
 import DownloadIcon from '@mui/icons-material/Download';
 import { Image } from '../../stores/Collections'
-import { handleOnDownloadFile } from '@/utils/base64';
+import { handleOnDownloadFile } from '@/utils';
 
 interface CardProps {
   image: Image

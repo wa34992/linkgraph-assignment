@@ -65,13 +65,13 @@ export const imageCollection = types
 
     const postImage = flow(function* fetchData(img) {
       const payload = {
-        "id": self.data.length + 3,
+        "id": Math.floor( Math.random()*999 ) + 100,
+        "collection": false,
         "url": img,
-        "size": "small",
+        "size": "medium",
         "tags": [
           "new"
-        ],
-        "collection": false
+        ]
       }
       try {
         const res = yield uploadNewImageAPI(payload)

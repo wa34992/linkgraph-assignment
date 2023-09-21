@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import { useStore } from '@/stores/stores';
-import { encodeToBase64 } from '@/utils/base64';
+import { encodeToBase64 } from '@/utils';
 
 const VisuallyHiddenInput = styled('input')({
   clip: 'rect(0 0 0 0)',
