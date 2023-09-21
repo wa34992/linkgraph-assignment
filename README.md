@@ -1,40 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Linkgraph Assignment
+Welcome to the Linkgraph assignment repository! This project is a web application developed using React.js, Next.js, Mobx, and JSON server. Below, you'll find an overview of the project's features, local setup instructions, and the project's file structure for a better understanding.
+## Features
+### Image Management
+- **Add/Upload Image:** Easily add or upload images to the application.
+- **Search by Tag:** Search for images based on tags.
+- **View Image Listing:** Browse and view a list of images.
+- **Add to Collection:** Organize your images by adding them to collections.
+- **Change Card Size:** Customize the display size of image cards.
+### Image Actions
+- **Delete Image:** Remove images you no longer need.
+- **Download Image:** Download images to your local machine.
+- **Add/Remove Tags:** Manage image tags for better organization.
+### Collection Management
+- **Collection Listing:** Access and manage your image collections.
+- **Local Database:** Data is saved in a local JSON database file.
+- **Responsive UI:** The user interface adapts to various screen sizes.
+## Local Setup
+To set up and run the project locally, follow these steps:
+1. Clone this repository.
+2. Install project dependencies using your preferred package manager (Yarn or Npm):
+   ```shell
+   yarn install
+   # or
+   npm install
+3. Install JSON Server globally using the following command:
+    ```shell
+    npm install -g json-server
+4. JSON Server will handle local database requests using a file named db.json as a local database.
+    Run JSON Server to serve the database:
+    ```shell
+    json-server --watch local-db.json --port=3001
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Start the application by running:
+    ```shell
+    yarn run dev
+    # or
+    npm run dev
+This will start the development server, and you can access the application in your web browser.
+## File Structure
+Here's an overview of the project's file structure:
+| File/Folder              | Description                                                                                                        |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------|
+| `src/pages/`             | This directory contains the pages used in the application.                                                         |
+| `src/pages/api`          | Functions to call APIs.                                                                                            |
+| `src/stores/Collections` | Description needed.                                                                                                |
+| `src/styles/`            | All CSS files and modules.                                                                                         |
+| `src/utils/`             | Files with reusable functions for multiple components.                                                             |
+| `db.json`                | Local JSON-based database file used by JSON Server for storage.                                                    |
+Thank you for exploring our Linkgraph Assignment project. If you have any questions or need further assistance, feel free to contact me.
