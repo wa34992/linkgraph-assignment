@@ -29,7 +29,7 @@ To set up and run the project locally, follow these steps:
 4. JSON Server will handle local database requests using a file named db.json as a local database.
     Run JSON Server to serve the database:
     ```shell
-    json-server --watch local-db.json --port=3001
+    json-server --watch db.json --port=3001
 
 5. Start the application by running:
     ```shell
