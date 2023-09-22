@@ -18,7 +18,7 @@ Welcome to the Linkgraph assignment repository! This project is a web applicatio
 ## Local Setup
 To set up and run the project locally, follow these steps:
 1. Clone this repository.
-2. Install project dependencies using your preferred package manager (Yarn or Npm):
+2. Install project dependencies using your preferred package manager (Yarn or Npm). Prederred node version is greater or equal 16.17.0 :
    ```shell
    yarn install
    # or
