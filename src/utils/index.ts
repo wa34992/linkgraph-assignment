@@ -1,3 +1,4 @@
+// conver file to base64
 export  const encodeToBase64 = async (file: File) => {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
@@ -8,7 +9,7 @@ export  const encodeToBase64 = async (file: File) => {
     reader.onerror = reject;
   });
 }
-
+// download images
 export const handleOnDownloadFile = (imageUrls:string) => {
   const element = document.createElement("a");
   const imageUrl = imageUrls;

@@ -43,7 +43,7 @@ Here's an overview of the project's file structure:
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------|
 | `src/pages/`             | This directory contains the pages used in the application.                                                         |
 | `src/pages/api`          | Functions to call APIs.                                                                                            |
-| `src/stores/Collections` | Description needed.                                                                                                |
+| `src/stores/Collections` | Mobx integration: Model, views and actions needed.                                                                                                |
 | `src/styles/`            | All CSS files and modules.                                                                                         |
 | `src/utils/`             | Files with reusable functions for multiple components.                                                             |
 | `db.json`                | Local JSON-based database file used by JSON Server for storage.                                                    |

@@ -1,3 +1,4 @@
+// Mobx store configuration
 import { useMemo } from 'react'
 import { applySnapshot, getSnapshot, Instance, types } from 'mobx-state-tree'
 import { initimageCollection, imageCollection } from './Collections'

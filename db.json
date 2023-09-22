@@ -1,82 +1,39 @@
 {
   "images": [
     {
-      "id": 1,
-      "url": "https://plus.unsplash.com/premium_photo-1694987867067-958594ed9d45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3088&q=80",
-      "size": "medium",
-      "tags": [
-        "New",
-        "nature"
-      ],
-      "collection": false
-    },
-    {
-      "id": 2,
-      "url": "https://images.unsplash.com/photo-1694734479867-0674311a00dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80",
-      "size": "small",
-      "tags": [
-        "New",
-        "nature"
-      ],
-      "collection": false
-    },
-    {
-      "id": 3,
-      "url": "https://images.unsplash.com/photo-1694619362413-4979885b4f61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80",
-      "size": "medium",
-      "tags": [
-        "New",
-        "nature"
-      ],
-      "collection": false
-    },
-    {
       "id": 4,
       "url": "https://images.unsplash.com/photo-1682685797703-2bb22dbb885b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80",
       "size": "medium",
       "tags": [
-        "New",
-        "nature"
+        "food"
       ],
-      "collection": false
+      "collection": true
     },
     {
       "id": 5,
       "url": "https://images.unsplash.com/photo-1695059231355-c6ea2ddc2a10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80",
       "size": "small",
       "tags": [
-        "New",
-        "nature"
+        "food"
       ],
-      "collection": false
-    },
-    {
-      "id": 6,
-      "url": "https://images.unsplash.com/photo-1694980549393-5a599c0e2630?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3024&q=80",
-      "size": "large",
-      "tags": [
-        "New",
-        "nature"
-      ],
-      "collection": false
+      "collection": true
     },
     {
       "id": 7,
       "url": "https://images.unsplash.com/photo-1694987175746-ec1eb112415f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80",
-      "size": "medium",
+      "size": "large",
       "tags": [
-        "New",
-        "nature"
+        "food"
       ],
-      "collection": false
+      "collection": true
     },
     {
       "id": 8,
       "url": "https://images.unsplash.com/photo-1643194838632-829808b8af2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2800&q=80",
       "size": "small",
       "tags": [
-        "New",
-        "nature"
+        "nature",
+        "shoping"
       ],
       "collection": false
     },
@@ -85,8 +42,7 @@
       "url": "https://plus.unsplash.com/premium_photo-1694251814809-17234e6cc2cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3095&q=80",
       "size": "medium",
       "tags": [
-        "New",
-        "nature"
+        "food"
       ],
       "collection": false
     },
@@ -95,8 +51,7 @@
       "url": "https://plus.unsplash.com/premium_photo-1680127401632-dcc0f571d4b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2970&q=80",
       "size": "medium",
       "tags": [
-        "New",
-        "nature"
+        "shoping"
       ],
       "collection": false
     },
@@ -105,8 +60,8 @@
       "url": "https://images.unsplash.com/photo-1693568880621-2c40af337c37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80",
       "size": "medium",
       "tags": [
-        "New",
-        "nature"
+        "shoping",
+        "food"
       ],
       "collection": true
     }

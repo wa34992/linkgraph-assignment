@@ -16,7 +16,7 @@ const VisuallyHiddenInput = styled('input')({
   whiteSpace: 'nowrap',
   width: 1
 })
-
+// This component is used to upload image file
 export const InputFileUpload = () => {
   const { imageCollection: { postImage }} = useStore(null)
 

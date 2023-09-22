@@ -1,3 +1,4 @@
+// Mobx integration: Model, views and actions.
 import { flow, types } from 'mobx-state-tree'
 import { toJS } from 'mobx'
 import { loadImagesAPI, deleteImagesAPI, uploadNewImageAPI, imageUpdateAPI } from '@/pages/api/api'
@@ -70,7 +71,7 @@ export const imageCollection = types
         "url": img,
         "size": "medium",
         "tags": [
-          "new"
+          "food"
         ]
       }
       try {

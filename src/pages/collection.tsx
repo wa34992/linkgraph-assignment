@@ -6,7 +6,9 @@ import { Masonry } from '@mui/lab';
 import { Box, Container } from '@mui/material';
 import Header from '@/components/Header'
 import style from '../styles/page.module.scss'
+import styles from '@/styles/Card.module.scss'
 
+// Collection page component
 const Collection = () => {
   const { imageCollection: { loadImages, getCollectionImages }, } = useStore(null)
 
@@ -23,9 +25,11 @@ const Collection = () => {
   return (
     <>
       <Header />
+        <div className={styles.collectionCount}>
+          <h4>Collection Count: {getCollectionImages.length}</h4>
+        </div>
       <Box className={style.bodycontent}>
         <Container>
-
           <Masonry
             columns={{ lg: 3, md: 3, sm: 2, xs: 1 }}
             spacing={2}

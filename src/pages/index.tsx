@@ -7,7 +7,7 @@ import { Box, Container } from '@mui/material';
 import Header from '@/components/Header'
 import style from '../styles/page.module.scss'
 import { Image } from '../stores/Collections'
-
+// main Page
 const Home = () => {
   const {
     imageCollection: { loadImages, getImages },
